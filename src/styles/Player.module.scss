@@ -1,0 +1,29 @@
+.container {
+    background-color: white;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px 20px 20px;
+    border-radius: 10px;
+
+    h2,h3 {
+        font-family: "Poppins", sans-serif;
+    }
+
+    h2 {
+        font-size: 1.5em;
+        margin-bottom: 20px;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+
+    .thumbnail {
+        width: 400px;
+        height: 200px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+}

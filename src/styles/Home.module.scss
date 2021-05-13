@@ -2,4 +2,11 @@
     width: 100vw;
     height: 100vh;
     background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .player {
+        margin-left: 30%;
+    }
 }
